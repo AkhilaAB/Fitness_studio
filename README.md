@@ -33,17 +33,14 @@ python manage.py shell
 
 ## Api endpoints
 
-#### GET /api/classes
-    Returns a list of all upcoming fitness classes (name, date/time, instructor, available slots)
-#### POST /api/book/
-    Books a class
+#### GET /api/classes-Returns a list of all upcoming fitness classes (name, date/time, instructor, available slots)
+#### POST /api/book/-Books a class
     example:
-    -{
+    {
         "class_id":1,
         "client_name":"Akhila",
         "client_email":"akhila@example.com"
     }
 
-#### GET /api/bookings/?email=akhila@example.com
-    returns all bookings made by that email
+#### GET /api/bookings/?email=akhila@example.com-returns all bookings made by that email
 
