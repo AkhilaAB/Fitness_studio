@@ -35,7 +35,6 @@ python manage.py shell
 
 #### GET /api/classes-Returns a list of all upcoming fitness classes (name, date/time, instructor, available slots)
 #### POST /api/book/-Books a class
-    example:
     {
         "class_id":1,
         "client_name":"Akhila",
