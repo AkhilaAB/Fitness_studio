@@ -42,5 +42,5 @@ python manage.py shell
         "client_email":"akhila@example.com"
     }
 
-#### GET /api/bookings/?email=akhila@example.com-returns all bookings made by that email
+#### GET /api/bookings/?email=akhila@example.com -returns all bookings made by that email
 
