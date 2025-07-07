@@ -28,22 +28,22 @@ python manage.py runserver  #to run
 ```bash
 python manage.py shell
 >>> exec(open("sample_data.py").read())
->>>run()
+>>> run()
 ```
 
 ## Api endpoints
 
---GET /api/classes
-    Returns a list of all upcoming fitness classes (name, date/time, instructor, available slots)
---POST /api/book/
-    Books a class
-example:
-{
-    "class_id":1,
-    "client_name":"Akhila",
-    "client_email":"akhila@example.com"
-}
+#### GET /api/classes
+    -Returns a list of all upcoming fitness classes (name, date/time, instructor, available slots)
+#### POST /api/book/
+    -Books a class
+    -example:
+    {
+        "class_id":1,
+        "client_name":"Akhila",
+        "client_email":"akhila@example.com"
+    }
 
--- GET /api/bookings/?email=akhila@example.com
-    returns all bookings made by that email
+#### GET /api/bookings/?email=akhila@example.com
+    -returns all bookings made by that email
 
